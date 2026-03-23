@@ -17,6 +17,8 @@ public class Main {
         uc4.execute();
         UC5_PreserveInsertionOrder uc5 = new UC5_PreserveInsertionOrder();
         uc5.execute();
+        UC6_BogieCapacityMap uc6 = new UC6_BogieCapacityMap();
+        uc6.execute();
 
         System.out.println("\nSystem ready for operations...");
     }
