@@ -13,6 +13,8 @@ public class Main {
         uc2.execute();
         UC3_UniqueBogieIDs uc3 = new UC3_UniqueBogieIDs();
         uc3.execute();
+        UC4_OrderedBogieConsist uc4 = new UC4_OrderedBogieConsist();
+        uc4.execute();
 
         System.out.println("\nSystem ready for operations...");
     }
