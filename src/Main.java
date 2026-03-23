@@ -9,6 +9,8 @@ public class Main {
         // UPDATED CLASS NAME HERE 👇
         UC1_InitializeTrain train = new UC1_InitializeTrain();
         train.displaySummary();
+        UC2_AddPassengerBogies uc2 = new UC2_AddPassengerBogies();
+        uc2.execute();
 
         System.out.println("\nSystem ready for operations...");
     }
