@@ -15,6 +15,8 @@ public class Main {
         uc3.execute();
         UC4_OrderedBogieConsist uc4 = new UC4_OrderedBogieConsist();
         uc4.execute();
+        UC5_PreserveInsertionOrder uc5 = new UC5_PreserveInsertionOrder();
+        uc5.execute();
 
         System.out.println("\nSystem ready for operations...");
     }
