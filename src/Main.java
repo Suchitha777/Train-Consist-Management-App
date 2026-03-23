@@ -11,6 +11,8 @@ public class Main {
         train.displaySummary();
         UC2_AddPassengerBogies uc2 = new UC2_AddPassengerBogies();
         uc2.execute();
+        UC3_UniqueBogieIDs uc3 = new UC3_UniqueBogieIDs();
+        uc3.execute();
 
         System.out.println("\nSystem ready for operations...");
     }
